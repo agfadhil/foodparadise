@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CityCard = props => (
   <div className="col-4">
@@ -6,9 +7,9 @@ const CityCard = props => (
       <div className="card-body">
         <h3 className="card-title">{props.city.name}</h3>
         <p>{props.city.country_name}</p>
-        <a href="/#" className="card-text">
+        <Link to={`/city/${props.city.id}`} className="card-text">
           See restaurants in {props.city.name}
-        </a>
+        </Link>
       </div>
     </div>
   </div>

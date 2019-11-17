@@ -6,7 +6,7 @@ const CityList = props => (
     <div className="row">
       <div className="col-12">
         <h3>{props.title}</h3>
-        {props.showSubtitle === true && props.subtitle != "" && (
+        {props.showSubtitle === true && props.subtitle !== "" && (
           <h6 className="text-muted">
             Search result for keyword '{props.subtitle}'
           </h6>
@@ -27,7 +27,7 @@ const CityList = props => (
 
 const _renderCityList = cities => {
   if (cities.length > 0) {
-    cities.map(city => <CityCard key={city.id} city={city} />);
+    return cities.map(city => <CityCard key={city.id} city={city} />);
   } else {
     return (
       <div className="col">
