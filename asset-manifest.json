@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c5777c75.chunk.css",
+    "main.js": "/static/js/main.a8f538bd.chunk.js",
+    "main.js.map": "/static/js/main.a8f538bd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dc52788b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dc52788b.js.map",
+    "static/js/2.ba5ccfa2.chunk.js": "/static/js/2.ba5ccfa2.chunk.js",
+    "static/js/2.ba5ccfa2.chunk.js.map": "/static/js/2.ba5ccfa2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ecf569470826824f1eb05dd821847822.js": "/precache-manifest.ecf569470826824f1eb05dd821847822.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c5777c75.chunk.css.map": "/static/css/main.c5777c75.chunk.css.map",
+    "static/media/aneka-makanan.jpg": "/static/media/aneka-makanan.7998eb99.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc52788b.js",
+    "static/js/2.ba5ccfa2.chunk.js",
+    "static/css/main.c5777c75.chunk.css",
+    "static/js/main.a8f538bd.chunk.js"
+  ]
+}
